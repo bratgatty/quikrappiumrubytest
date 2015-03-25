@@ -1,10 +1,7 @@
-
 Feature: Search
-
 
   @search_suggestion
   Scenario: To verify user can select an item from the suggestion and view the results
-
     Given I am  on the home screen
     When I tap on the search icon
     Then I should see the search text field

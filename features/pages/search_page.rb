@@ -13,7 +13,7 @@ class SearchPage
 
 
   def validate_suggestions
-    puts "Talk to machhi to read api and validate the item shown"
+    puts "This needs to be implemented"
   end
 
 
@@ -27,6 +27,6 @@ class SearchPage
   end
 
   def validate_search_results
-    puts "Talk to macchi to validate search results"
+    puts "This needs to be implemented"
   end
 end

@@ -1,0 +1,11 @@
+source 'http://rubygems.org/'
+
+gem 'appium_console'
+gem 'appium_lib', '5.0.1'
+gem 'selenium-webdriver'
+gem 'rspec', '3.1.0'
+gem 'rspec-expectations','3.1.2'
+gem 'spec','5.3.4'
+gem 'httparty'
+gem 'json'
+gem 'multi_xml'

@@ -1,0 +1,5 @@
+[caps]
+platformName = "Android"
+deviceName = "SAMSUNG"
+appPackage = "com.quikr"
+app = "./Quikr_7.42.apk"

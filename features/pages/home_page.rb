@@ -7,12 +7,9 @@ class HomePage
 
 
   def navigate_to_login_screen
-    select_city_popup = @@driver.find_element("name",'Continue').displayed?
-
-    if(select_city_popup)
-      select_city_popup.click
+    if @@driver.find_elements("name",'Continue').size > 0
+	    @@driver.find_element("name",'Continue').click
     end
-
     @@common_obj.wait_for_element_to_appear("id",LHN,10)
 
     # tap on LHN button

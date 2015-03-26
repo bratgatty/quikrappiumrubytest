@@ -1,7 +1,16 @@
 class HelperClass
 
   def assert_search_icon_exists
-    sleep 5
+
+    sleep 3
+
+    # After login, its observer that select city alert pops up. To dismiss it , writing the following logic
+
+    if @@driver.find_elements("name",'Continue').size > 0
+      @@driver.find_element("name",'Continue').click
+    end
+
+
     search_icon = @@driver.find_element("id",Search_Btn)
     search_icon.displayed?
   end

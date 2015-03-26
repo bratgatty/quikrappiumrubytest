@@ -7,6 +7,9 @@ class HomePage
 
 
   def navigate_to_login_screen
+
+    # After login, its observer that select city alert pops up. To dismiss it , writing the following logic
+    
     if @@driver.find_elements("name",'Continue').size > 0
 	    @@driver.find_element("name",'Continue').click
     end

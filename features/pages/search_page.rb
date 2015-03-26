@@ -24,6 +24,12 @@ class SearchPage
 
   def wait_for_results_to_load
     @@common_obj.wait_for_element_to_appear("id", FilterBtn, 10)
+
+
+    ## click the filter button.
+    #filter_btn = @@driver.find_element("id",FilterBtn)
+    #filter_btn.click
+
   end
 
   def validate_search_results
